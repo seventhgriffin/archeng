@@ -18,6 +18,7 @@ public class IconTest {
         Icon icon = Icon.builder()
                 .id("myId")
                 .name("myIcon")
+                .nature(Icon.Nature.HEROIC)
                 .build();
         
         

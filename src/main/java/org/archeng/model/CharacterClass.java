@@ -1,5 +1,9 @@
 package org.archeng.model;
 
-public class CharacterClass {
+import java.util.Collection;
 
+public final class CharacterClass {
+
+    private Collection<IconRelationship> iconRelationships;
+    
 }
