@@ -66,4 +66,21 @@ public final class Icon {
             .toString();
     }
     
+    @Override
+    public boolean equals(Object object) {
+        if (object == this) { return true; }
+        if (!(object instanceof Icon)) { return false; }
+        Icon other = (Icon)object;
+        return Objects.equal(this.id, other.id)
+            && Objects.equal(this.name, other.name)
+            && Objects.equal(this.nature, other.nature)
+            && Objects.equal(this.flavorText, other.flavorText)
+            ;
+    }
+    
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(id, name, nature, flavorText);
+    }
+    
 }
