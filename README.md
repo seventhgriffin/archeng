@@ -3,8 +3,8 @@ The archeng Library
 
 A Java implementation of The Archmage Engine (the OGL engine created for the "13th Age" tabletop RPG).
 
-Project: [Web Site](http://archeng.org)
-Repository: [Github](https://github.com/seventhgriffin/archeng)
+* Project: [Web Site](http://archeng.org)
+* Repository: [Github](https://github.com/seventhgriffin/archeng)
 
 FAQ
 ===
@@ -12,12 +12,12 @@ FAQ
 What can I actually do with this library?
 -----------------------------------------
 
-Currently, nothing.  The project is just starting. Release notes will be added as functionality is developed.
+Currently, nothing. The project is just starting, no announcements made to any community yet etc. Release notes will be added as functionality is developed. If you're interested in contributing please reach out on github or [email](mailto:seventhgriffin@outlook.com).
 
 What will I eventually be able to do with this library?
 -------------------------------------------------------
 
-At a high level, this library plans to provide a representation of the game-state of a game run under the Archmage Engine.  Users of the library will be able to initialize the engine by providing custom rules such as the lists of feats, icons, and classes to be used in the game. The library will provide serialization of game-state for network-transfer and persistence ("saves").  Mutation of state will be validated according to the mechanics of the Archmage Engine.  Potential applications using this library could be a character-creation/editing tool, a prototyping environment to test new character-classes, an app to assist a GM and players manage a battle, or a reference-book application to search for feats and powers.
+At a high level, this library plans to provide a representation of the game-state of a game run under the Archmage Engine.  Users of the library will be able to initialize the engine by providing custom rules such as the lists of feats, icons, and classes to be used in the game. The library will provide serialization of game-state for network-transfer and persistence ("saves").  Mutation of state will be validated according to the mechanics of the Archmage Engine, eventually defined by its [System Resource Document](http://www.pelgranepress.com/?tag=archmage-engine) once the SRD is published.  Potential applications using this library could be a character-creation/editing tool, a prototyping environment to test new character-classes, an app to assist a GM and players manage a battle, or a reference-book application to search for feats and powers.
 
 Why Java?
 ---------
